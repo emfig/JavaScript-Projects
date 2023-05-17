@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Slideshow/Countdown</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <!-- Slideshow container-->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Images/gamba.jpg" style="width:100%">
+            <div class="text">Gambling</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Images/gamba2.jpg" style="width:100%">
+            <div class="text">Baby Gambler</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Images/gamba3.jpg" style="width:100%">
+            <div class="text">All in</div>
+        </div>
+
+        <!-- Next and Prev Button -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    
+    <!-- Countdown Input -->
+    <p>How many seconds would you like to set your alarm for?</p>
+    <input id="seconds" value="" />
+    <button onclick="countdown()">Click here</button>
+    <p id="timer"></p>
+ 
+    <script src="JS/main.js"></script>
+</body>
+</html>
