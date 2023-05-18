@@ -1,6 +1,16 @@
 /* GENERAL STYLING */
 h1 {
     text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #8B00FF;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
 }
 
 /* CONTAINER AND TABLE FOR CANVAS */
